@@ -2,8 +2,9 @@ body {
   font-family: "Otomanopee One", sans-serif;
   margin: 0;
 }
-section {
+.flex-display {
   display: flex;
+  margin-bottom: 10%;
 }
 .color {
   color: red;
@@ -17,7 +18,7 @@ section {
   position: relative;
   left: 20%;
 }
-#size {
+.size {
   font-size: 500%;
 }
 .top-banner {
@@ -31,4 +32,37 @@ a {
   font-weight: 800;
   background-image: linear-gradient(red, tomato);
   border-radius: 5%;
+}
+.middle {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.middle-banner {
+  background-image: url(background\ 2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left;
+}
+.last {
+  background-image: url(top-banner.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.box-making {
+  box-shadow: 10px 10px 50px grey;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 50%;
+  margin-left: 4%;
+  margin-right: 3%;
+}
+#full-dev {
+  border-left: 5px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#baby-dev {
+  border-left: 5px solid;
+  border-image: linear-gradient(red, salmon);
+  border-image-slice: 1;
 }
