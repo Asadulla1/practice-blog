@@ -43,6 +43,11 @@ a {
   background-size: 100%;
   background-position: left;
 }
+#img2 {
+  width: 90%;
+  position: relative;
+  left: 5%;
+}
 .last {
   background-image: url(top-banner.png);
   background-repeat: no-repeat;
